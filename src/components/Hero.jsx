@@ -112,7 +112,7 @@ export default function Hero({ activeNode, setActiveNode, onNodeSelect, scrollTo
       <div>
         <span className="eyebrow">Technicien Systèmes · Réseaux · Télécoms</span>
         <h1>
-          Saliou <span>Diop</span>
+          Saliou <span>DIOP</span>
         </h1>
         <p className="hero-sub">
           Étudiant en Master 1 Systèmes et Réseaux à l'Université Alioune Diop de Bambey.

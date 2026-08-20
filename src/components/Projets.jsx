@@ -9,7 +9,6 @@ export default function Projets() {
       <Reveal className="section-head">
         <span className="eyebrow">04 · Réalisations</span>
         <h2>Projets</h2>
-        <p>Les liens « Rapport » et « GitHub » pointent vers les documents et dépôts correspondants.</p>
       </Reveal>
       <div className="projects-grid">
         {PROJECTS.map((p, i) => (
