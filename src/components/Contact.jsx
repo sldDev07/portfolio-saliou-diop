@@ -23,7 +23,7 @@ export default function Contact() {
             <LucidePhoneCall size={16} /> WhatsApp
           </a>
           <a className="contact-row" href="https://linkedin.com/in/sld07" target="_blank" rel="noopener noreferrer">
-            <Linkedin size={16} /> LinkdIn
+            <Linkedin size={16} /> LinkedIn
           </a>
           <a className="contact-row" href="https://github.com/sldDev07" target="_blank" rel="noopener noreferrer">
             <Github size={16} /> GitHub
