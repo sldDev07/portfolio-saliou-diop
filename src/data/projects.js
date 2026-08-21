@@ -20,6 +20,16 @@ const PROJECTS = [
     links: { rapport: "https://drive.google.com/file/d/1BXT6x6wFHUzbtgbsllhgv_Uazo0Ixmvf/view?usp=drive_link" },
   },
   {
+    title: "Administration Windows Server & Services Réseau",
+    period: "Projet académique",
+    description:
+      "Déploiement d'un environnement Windows Server 2019 virtualisé sous VMware Workstation avec configuration d'Active Directory, DNS, DHCP, gestion des utilisateurs et des accès, sauvegarde et quotas, routage et accès distant RRAS, audit DNS/DHCP, monitoring avec alertes de performance. Mise en place d'IIS pour l'hébergement Web et FTP.",
+    tags: ["Windows Server 2019", "Active Directory", "DNS/DHCP", "RRAS", "IIS", "VMware", "Audit"],
+    image: "/projects/windows-server.png",
+    imageAlt: "Infrastructure Windows Server 2019 virtualisée",
+    links: { rapport: "https://drive.google.com/file/d/1Sv8MRqV8G_gi76YlvT1B1KQKau1KqD47/view?usp=drive_link" },
+  },
+  {
     title: "Tunnels MPLS L3VPN Inter-AS (Option A)",
     period: "Simulation Huawei eNSP",
     description:
