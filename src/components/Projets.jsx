@@ -29,7 +29,7 @@ export default function Projets() {
               <div className="project-links">
                 {p.links.rapport && (
                   <a className="project-link" href={p.links.rapport} target="_blank" rel="noopener noreferrer">
-                    <FileText size={13} /> Rapport
+                    <FileText size={13} /> Telechareger le Rapport
                   </a>
                 )}
                 {p.links.github && (
