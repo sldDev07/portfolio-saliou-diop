@@ -4,7 +4,7 @@ const PROJECTS = [
     period: "Projet académique",
     description:
       "Cluster Oracle RAC 19c à 2 nœuds sous Oracle Linux, stockage partagé iSCSI/Oracle ASM (OCR, DATA, FRA) et Grid Infrastructure (SCAN Listener, VIP, Voting Disk, Cache Fusion). Tests de bascule de nœud sans perte de transaction et comparatif des architectures Oracle.",
-    tags: ["Oracle RAC 19c", "ASM", "Grid Infrastructure", "Haute disponibilité"],
+    tags: ["Oracle RAC 19c", "Oracle Linux", "iSCSI", "ASM", "Grid Infrastructure", "Haute disponibilité"],
     image: "/projects/oracle-rac.png",
     imageAlt: "Architecture Oracle RAC haute disponibilité",
     links: { rapport: "https://drive.google.com/file/d/1boOpuUN1QC9pWAH6D7Ituc5AWfA-XCBi/view?usp=drive_link" },
