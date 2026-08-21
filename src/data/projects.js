@@ -77,7 +77,7 @@ const PROJECTS = [
     tags: ["JavaScript", "Three.js", "Backtracking", "Python", "Algorithmique"],
     image: "/projects/8-reines.jpg",
     imageAlt: "Simulation 3D du problème des 8 reines",
-    links: { demo: "https://probleme-8-reines.netlify.app" },
+    links: { demo: "https://probleme-8-reines.netlify.app", github: "https://github.com/sldDev07/projet_8_reine.git" },
   },
 ];
 
