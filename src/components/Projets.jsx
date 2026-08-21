@@ -1,5 +1,5 @@
 import React from "react";
-import { FileText, Github } from "lucide-react";
+import { FileText, Github, ExternalLink } from "lucide-react";
 import PROJECTS from "../data/projects";
 import { Reveal } from "../utils";
 
@@ -30,6 +30,11 @@ export default function Projets() {
                 {p.links.rapport && (
                   <a className="project-link" href={p.links.rapport} target="_blank" rel="noopener noreferrer">
                     <FileText size={13} /> Telechareger le Rapport
+                  </a>
+                )}
+                {p.links.demo && (
+                  <a className="project-link" href={p.links.demo} target="_blank" rel="noopener noreferrer">
+                    <ExternalLink size={13} /> Voir la démo
                   </a>
                 )}
                 {p.links.github && (

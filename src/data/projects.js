@@ -59,6 +59,16 @@ const PROJECTS = [
     imageAlt: "Sécurisation réseau LAN WAN DMZ",
     links: { rapport: "https://drive.google.com/file/d/1dMOzp-Ixh0LVteHwqTUucTuXkVc0OaDx/view?usp=drive_link" },
   },
+  {
+    title: "Le Problème des 8-Reines — Complexité et Algorithmique & Visualisation 3D",
+    period: "Projet académique",
+    description:
+      "Plateforme web interactive dédiée au problème des N-Reines : résolution par méthode des permutations et algorithme de backtracking avec élagage, simulations 3D animées du placement des reines, solveur de labyrinthe 3D et analyse comparative des performances des deux approches.",
+    tags: ["JavaScript", "Three.js", "Backtracking", "Python", "Algorithmique"],
+    image: "/projects/8-reines.jpg",
+    imageAlt: "Simulation 3D du problème des 8 reines",
+    links: { demo: "https://probleme-8-reines.netlify.app" },
+  },
 ];
 
 export default PROJECTS;

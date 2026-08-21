@@ -15,15 +15,15 @@ export default function Profil() {
             <div className="id-photo-wrap">
               <img src={PHOTO_SRC} alt="Photo de Saliou Diop" />
             </div>
-            <div className="id-row"><span>Nom</span><b>Saliou Diop</b></div>
-            <div className="id-row"><span>Rôle</span><b>Systèmes &amp; Réseaux</b></div>
-            <div className="id-row"><span>Base</span><b>Louga, SN</b></div>
-            <div className="id-row"><span>Statut</span><b>Master 1</b></div>
+            <div className="id-row"><span>Prenom & Nom</span><b>Saliou Diop</b></div>
+            <div className="id-row"><span>Formation Actuelle</span><b>Systèmes &amp; Réseaux</b></div>
+            <div className="id-row"><span>Base</span><b>Bambey, SN</b></div>
+            <div className="id-row"><span>Niveau</span><b>Master 2</b></div>
           </div>
         </Reveal>
         <Reveal delay={80} className="profil-text">
           <p>
-            <strong>Étudiant en Master 1 Systèmes et Réseaux</strong> à l'Université Alioune Diop de Bambey,
+            <strong>Étudiant en Master 2 Systèmes et Réseaux</strong> à l'Université Alioune Diop de Bambey,
             titulaire d'une licence en Systèmes, Réseaux et Télécoms avec une forte orientation
             <strong> cybersécurité</strong>.
           </p>
