@@ -444,11 +444,34 @@ export default function Portfolio() {
           border: 1px solid var(--grid-line);
           border-radius: 6px;
           background: var(--navy);
+          padding: 0;
+          display: flex;
+          flex-direction: column;
+          gap: 0;
+          transition: border-color 0.25s ease, transform 0.25s ease;
+          overflow: hidden;
+        }
+        .project-card-body {
           padding: 26px 24px;
           display: flex;
           flex-direction: column;
           gap: 14px;
-          transition: border-color 0.25s ease, transform 0.25s ease;
+          flex-grow: 1;
+        }
+        .project-cover {
+          aspect-ratio: 3 / 2;
+          overflow: hidden;
+          border-bottom: 1px solid var(--grid-line);
+        }
+        .project-cover img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          display: block;
+          transition: transform 0.35s ease;
+        }
+        .project-card:hover .project-cover img {
+          transform: scale(1.04);
         }
         .project-card:hover { border-color: var(--line-strong); transform: translateY(-3px); }
         .project-period { font-family: 'JetBrains Mono', monospace; font-size: 10.5px; color: var(--cyan); text-transform: uppercase; letter-spacing: 0.08em; }

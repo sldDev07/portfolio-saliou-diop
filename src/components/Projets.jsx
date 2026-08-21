@@ -14,6 +14,12 @@ export default function Projets() {
         {PROJECTS.map((p, i) => (
           <Reveal key={p.title} delay={(i % 3) * 60}>
             <div className="project-card">
+              {p.image && (
+                <div className="project-cover">
+                  <img src={p.image} alt={p.imageAlt || p.title} loading="lazy" decoding="async" />
+                </div>
+              )}
+              <div className="project-card-body">
               <span className="project-period">{p.period}</span>
               <h3>{p.title}</h3>
               <p>{p.description}</p>
@@ -31,6 +37,7 @@ export default function Projets() {
                     <Github size={13} /> GitHub
                   </a>
                 )}
+              </div>
               </div>
             </div>
           </Reveal>

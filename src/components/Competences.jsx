@@ -8,7 +8,6 @@ export default function Competences({ highlightSkill }) {
       <Reveal className="section-head">
         <span className="eyebrow">02 · Fiche technique</span>
         <h2>Compétences</h2>
-        <p>Survolez un nœud du schéma ci-dessus pour explorer les domaines liés — chaque catégorie ci-dessous fonctionne comme une fiche de configuration.</p>
       </Reveal>
       <div className="skills-grid">
         {SKILL_CATEGORIES.map((cat, i) => {
