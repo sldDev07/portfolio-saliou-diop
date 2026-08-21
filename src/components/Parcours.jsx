@@ -31,7 +31,16 @@ export default function Parcours() {
                   </span><span className="trace-status">{t.status}</span><br />
                   <span className="trace-place">{t.place}</span><br></br><br></br>
                   <span className="trace-title">{t.description}</span><br></br>
-                  <span className="trace-title">{t.description2}</span><br></br>
+                  <span className="trace-title">{t.description2}</span>
+                  {t.link && (
+                    <>
+                      <br></br>
+                      <a className="trace-link" href={t.link} target="_blank" rel="noopener noreferrer">
+                        ▸ {new URL(t.link).hostname}
+                      </a>
+                    </>
+                  )}
+                  <br></br>
                 </span>
               </div>
             ))}

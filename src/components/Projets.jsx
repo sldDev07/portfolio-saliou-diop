@@ -29,7 +29,7 @@ export default function Projets() {
               <div className="project-links">
                 {p.links.rapport && (
                   <a className="project-link" href={p.links.rapport} target="_blank" rel="noopener noreferrer">
-                    <FileText size={13} /> Telechareger le Rapport
+                    <FileText size={13} /> Consulter le Rapport
                   </a>
                 )}
                 {p.links.demo && (
@@ -39,7 +39,7 @@ export default function Projets() {
                 )}
                 {p.links.github && (
                   <a className="project-link" href={p.links.github} target="_blank" rel="noopener noreferrer">
-                    <Github size={13} /> GitHub
+                    <Github size={13} /> Depot GitHub
                   </a>
                 )}
               </div>

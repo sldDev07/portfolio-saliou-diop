@@ -13,25 +13,19 @@ const SKILL_CATEGORIES = [
     id: "langages",
     label: "Langages & Frameworks",
     icon: Code2,
-    items: ["Java", "Python", "JavaScript", "Pascal", "HTML/CSS", "PHP", "Django", "DRF", "React", "Flutter/Dart", "Leaflet.js", "Bootstrap"],
+    items: ["Java avancé", "Python", "JavaScript", "Pascal", "HTML/CSS", "PHP", "Django", "DRF", "React", "Flutter/Dart", "Leaflet.js", "Bootstrap"],
   },
   {
     id: "bdd",
     label: "Bases de données",
     icon: Database,
-    items: ["MySQL", "SQLite", "Oracle Database (RAC, ASM)", "PostgreSQL"],
+    items: ["MySQL", "SQLite","Oracle 19c", "Oracle Database (RAC, ASM)", "PostgreSQL"],
   },
   {
     id: "systemes",
     label: "Systèmes",
     icon: Terminal,
     items: ["Linux (Kali, Ubuntu Server, Oracle Linux)", "Windows Server", "Active Directory"],
-  },
-  {
-    id: "reseaux",
-    label: "Réseaux",
-    icon: Network,
-    items: ["LAN/WAN", "VLAN", "TCP/IP", "DNS", "DHCP", "Câblage réseau", "MPLS", "LDP", "MP-BGP", "VRF", "OSPF", "IS-IS", "EIGRP", "RIP", "Bind9", "PKI/TLS-SSL", "HAProxy", "Postfix/Dovecot", "vsftpd", "Samba/DFS"],
   },
   {
     id: "securite",
@@ -56,6 +50,30 @@ const SKILL_CATEGORIES = [
     label: "Data & Machine Learning",
     icon: BrainCircuit,
     items: ["Machine learning", "Traitement et analyse de données"],
+  },
+  {
+    id: "reseaux",
+    label: "Réseaux",
+    icon: Network,
+    items: ["LAN/WAN", "VLAN", "TCP/IP", "DNS", "DHCP", "Câblage réseau", "MPLS", "LDP", "MP-BGP", "VRF", "OSPF", "IS-IS", "EIGRP", "RIP", "Bind9", "PKI/TLS-SSL", "HAProxy", "Postfix/Dovecot", "vsftpd", "Samba/DFS", "ATM", "Frame Relay", "VoIP"],
+  },
+  {
+    id: "cloud",
+    label: "Cloud & Virtualisation",
+    icon: Cpu,
+    items: ["Technologies de virtualisation (VMware, VirtualBox, Docker, Sandbox)", "Cloud computing", "Réseaux virtuels", "Services cloud"],
+  },
+  {
+    id: "Management et Communication",
+    label: "Management et Communication",
+    icon: BrainCircuit,
+    items: ["Gestion de projet (Méthodes Agiles, Diagrammes de Gantt, Diagrammes de PERT...)", "communication efficace et travail d'équipe", "Droit des TIC"],
+  },
+  {
+    id: "Pro",
+    label: "Professionnalisation et Societé",
+    icon: BrainCircuit,
+    items: ["Economie des TIC", "Entrepreneuriat"],
   },
 ];
 

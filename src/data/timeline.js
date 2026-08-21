@@ -11,6 +11,18 @@ const TIMELINE = [
         "● Contribution à l'évaluation de l'impact du Magal sur les secteurs du commerce, transport, ménages, transferts defonds, pèlerins.",
 
   },
+  {
+    hop: "🏆",
+    date: "Mars 2026",
+    title: "Sama Santé — Assistant santé anonyme pour les jeunes",
+    place: " Développeur Backend en tant que freelance pour le Compte de l'Équipe Triocare",
+    status: "🏆 Lauréat Hackathon",
+    description:
+        "● Développement du backend Django / Django REST Framework : profils anonymes, géolocalisation des structures de santé etc.",
+    description2:
+        "● Application axée confidentialité : identifiant anonyme généré par le backend, zéro donnée nominative stockée, API REST sécurisée et modulaire.",
+    link: "https://sama-sante-web.vercel.app/",
+  },
 ];
 
 export default TIMELINE;

@@ -110,12 +110,12 @@ export default function Hero({ activeNode, setActiveNode, onNodeSelect, scrollTo
   return (
     <header className="hero" id="top">
       <div>
-        <span className="eyebrow">Technicien Systèmes · Réseaux · Télécoms</span>
         <h1>
           Saliou <span>DIOP</span>
         </h1>
+        <span className="eyebrow">Technicien Systèmes · Réseaux · Télécoms</span><br></br><br></br>
         <p className="hero-sub">
-          Étudiant en Master 1 Systèmes et Réseaux à l'Université Alioune Diop de Bambey.
+          Étudiant en Master 2 Systèmes et Réseaux à l'Université Alioune Diop de Bambey.
           Je conçois, sécurise et supervise des infrastructures — du routage avancé (MPLS, BGP, OSPF)
           aux objets connectés (ESP32, GPS, LoRa), en passant par le développement full-stack et
           l'administration de bases de données haute disponibilité.

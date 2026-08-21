@@ -433,6 +433,16 @@ export default function Portfolio() {
         .trace-row--timeout .trace-place { color: var(--amber); opacity: 0.85; }
         .trace-row--timeout .trace-status { border-color: var(--amber); color: var(--amber); }
         .trace-row--current .trace-status { border-color: #58e07a; color: #58e07a; }
+        .trace-link {
+          display: inline-block;
+          margin-top: 8px;
+          font-family: 'JetBrains Mono', monospace;
+          font-size: 12px;
+          color: var(--cyan);
+          text-decoration: none;
+          border-bottom: 1px dashed var(--cyan);
+        }
+        .trace-link:hover { opacity: 0.75; }
 
         /* ---------------- PROJECTS ---------------- */
         .projects-grid {
