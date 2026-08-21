@@ -6,6 +6,8 @@ import {
   ShieldCheck,
   Cpu,
   BrainCircuit,
+  Notebook,
+  Building2,
 } from "lucide-react";
 
 const SKILL_CATEGORIES = [
@@ -66,13 +68,13 @@ const SKILL_CATEGORIES = [
   {
     id: "Management et Communication",
     label: "Management et Communication",
-    icon: BrainCircuit,
+    icon: Notebook,
     items: ["Gestion de projet (Méthodes Agiles, Diagrammes de Gantt, Diagrammes de PERT...)", "communication efficace et travail d'équipe", "Droit des TIC"],
   },
   {
     id: "Pro",
     label: "Professionnalisation et Societé",
-    icon: BrainCircuit,
+    icon: Building2,
     items: ["Economie des TIC", "Entrepreneuriat"],
   },
 ];
