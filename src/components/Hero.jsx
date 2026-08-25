@@ -120,7 +120,7 @@ export default function Hero({ activeNode, setActiveNode, onNodeSelect, scrollTo
           l'accent sur la <strong>performance, la disponibilité et la sécurité</strong>.
           Mes projets couvrent les <strong>réseaux et le routage avancé</strong> (MPLS, BGP,
           OSPF, IS-IS etc.), l'<strong>administration systèmes et réseaux</strong>, les
-          <strong>architectures haute disponibilité</strong> avec Oracle RAC, ainsi que
+          <strong> architectures haute disponibilité</strong> avec Oracle RAC, ainsi que
           le <strong>développement full-stack</strong> et l'<strong>IoT</strong>.
         </p>
         <div className="hero-ctas">
