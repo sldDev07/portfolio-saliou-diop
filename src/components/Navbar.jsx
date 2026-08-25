@@ -9,7 +9,7 @@ export default function Navbar({ scrollTo }) {
     <>
       <nav className="navbar">
         <div className="nav-logo">
-          sld<span className="mono">@</span>portfolio<span className="mono">:~$</span>
+          sld<span className="mono">@</span>portfolio<span className="mono">:~$ sudo</span>
           <span className="cursor" aria-hidden="true" />
         </div>
         <ul className="nav-links">
