@@ -117,8 +117,8 @@ export default function Hero({ activeNode, setActiveNode, onNodeSelect, scrollTo
         <p className="hero-sub">
           Étudiant en Master 2 Systèmes et Réseaux à l'Université Alioune Diop de Bambey.
           Je conçois, sécurise et supervise des infrastructures — du routage avancé (MPLS, BGP, OSPF)
-          aux objets connectés (ESP32, GPS, LoRa), en passant par le développement full-stack et
-          l'administration de bases de données haute disponibilité.
+          aux objets connectés, en passant par le développement full-stack et
+          l'administration de bases de données haute disponibilité ainsi que l'administration de systèmes et réseaux.
         </p>
         <div className="hero-ctas">
           <a className="btn-primary" href="#projets" onClick={(e) => { e.preventDefault(); scrollTo("projets"); }}>
