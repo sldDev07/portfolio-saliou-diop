@@ -33,7 +33,7 @@ const SKILL_CATEGORIES = [
     id: "securite",
     label: "Sécurité",
     icon: ShieldCheck,
-    items: ["pfSense", "Snort", "DMZ", "SSH", "OpenVPN", "Pare-feu"],
+    items: ["pfSense", "Snort", "DMZ", "SSH", "OpenVPN", "Pare-feu", "Criptographie"],
   },
   {
     id: "outils",
